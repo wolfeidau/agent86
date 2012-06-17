@@ -1,8 +1,8 @@
 {application,agent86,
              [{description,[]},
               {vsn,"1"},
+              {modules,[agent86_app,agent86_server,agent86_sup]},
               {registered,[]},
               {applications,[kernel,stdlib]},
               {mod,{agent86_app,[]}},
-              {env,[]},
-              {modules,[agent86_app,agent86_sup]}]}.
+              {env,[]}]}.
