@@ -3,7 +3,7 @@
      {vsn,"1"},
      {modules,[agent86_app,agent86_server,agent86_sup]},
      {registered,[]},
-     {applications,[kernel,stdlib]},
+     {applications,[kernel,stdlib,os_mon,lager]},
      {mod,{agent86_app,[]}},
      {env,[]},
      {lager,

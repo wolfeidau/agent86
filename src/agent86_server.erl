@@ -108,7 +108,8 @@ handle_info(_Info, State) ->
 %% @spec terminate(Reason, State) -> void()
 %% @end
 %%--------------------------------------------------------------------
-terminate(_Reason, _State) ->
+terminate(Reason, _State) ->
+    lager:notice("~p", [Reason]),
     ok.
 
 %%--------------------------------------------------------------------

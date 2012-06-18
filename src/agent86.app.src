@@ -6,8 +6,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
-                 ]},
+                  stdlib,
+		  os_mon,
+		  lager
+		  ]},
   {mod, { agent86_app, []}},
   {env, []},
   {lager, [
